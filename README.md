@@ -16,7 +16,7 @@ Sources:
 - in browser, go to `localhost:3000/pages/home`
 - the page should say:
 ```
-Hi from app/views/pages/home.html.erb
+Hi from app/views/pages/home.html.slim
 Hi from app/javascript/App.vue
 Hi from app/javascript/components/Counter.vue
 This line is a prop message for the counter component
@@ -166,7 +166,7 @@ export default {
 - go to localhost:3000/pages/home 
 - the page should say:
 ```
-Hi from app/views/pages/home.html.erb
+Hi from app/views/pages/home.html.slim
 Hi from app/javascript/App.vue
 Hi from app/javascript/components/Counter.vue
 This line is a prop message for the counter component
