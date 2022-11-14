@@ -8,6 +8,7 @@ Sources:
 
 ## To Run
 - `bundle install`
+- `bundle exec vite install`
 - `npm i vite@2.5.10 @vitejs/plugin-vue@2.3.3`
 - `npm i vite-plugin-vue2 vue@2`
 - terminal tab #1: `bin/vite dev`
