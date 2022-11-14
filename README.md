@@ -21,7 +21,7 @@ Sources:
 - `bundle add vite_rails slim-rails`
 - `bundle exec vite install`
 - `npm i vite@2.5.10 @vitejs/plugin-vue@2.3.3 --save`
-- `npm i vite-plugin-vue2 vue@2 --save`
+- `npm i vite-plugin-vue2 vue@2 --save` (this throws warnings, which I believe you can ignore 🤞)
 - `rails g controller pages home`
 - make `vite.config` look like this:
 ```
