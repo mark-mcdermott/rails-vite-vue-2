@@ -33,7 +33,7 @@ Vue version: 2.7.14
 - `bundle add vite_rails slim-rails`
 - `bundle exec vite install`
 - `npm i vite@2.5.10 @vitejs/plugin-vue@2.3.3 --save`
-- `npm i vite-plugin-vue2 vue@2 --save`
+- `npm i vite-plugin-vue2 vue@2 --save` (this throws warnings, which I believe you can ignore 🤞)
 - `rails g controller pages home`
 - make `vite.config` look like this:
 ```
@@ -91,7 +91,7 @@ new Vue({
 ```
 <template>
   <div>
-    p Hi from app/javascript/App.vue
+    <p>Hi from app/javascript/App.vue</p>
     <Counter propMessage="This line is a prop message for the counter component" />
   </div>
 </template>
@@ -174,5 +174,5 @@ Hi from app/javascript/components/Counter.vue
 This line is a prop message in the counter component.
 Vue version: 2.7.14
 ```
-- and there should be an Increment Counter Component button that increase a "count" variable below the button
+- and there should be an Increment Counter Component button that increases a "count" variable below the button
 - in the console, it should say "Vite ⚡ Rails" and there shold be no javascript errors
