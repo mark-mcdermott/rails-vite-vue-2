@@ -7,6 +7,8 @@ Sources:
 - https://www.mathew-paul.nz/posts/how-to-use-vue2-with-vite/
 
 ## To Run
+- `git clone https://github.com/mark-mcdermott/rails-vite-vue-2.git`
+- `cd rails-vite-vue-2`
 - `bundle install`
 - `bundle exec vite install`
 - `npm i vite@2.5.10 @vitejs/plugin-vue@2.3.3`
