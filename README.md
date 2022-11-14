@@ -22,7 +22,7 @@ Hi from app/javascript/components/Counter.vue
 This line is a prop message in the counter component.
 Vue version: 2.7.14
 ```
-- and there should be an Increment Counter Component button that increase a "count" variable below the button
+- there should be an Increment Counter Component button that increases a "count" variable below the button
 - in the console, it should say "Vite ⚡ Rails" and there shold be no javascript errors
 
 ## To Create
