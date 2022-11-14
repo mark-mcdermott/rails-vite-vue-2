@@ -14,6 +14,16 @@ Sources:
 - terminal tab #1: `bin/vite dev`
 - terminal tab #2: `rails s`
 - in browser, go to `localhost:3000/pages/home`
+- the page should say:
+```
+Hi from app/views/pages/home.html.erb
+Hi from app/javascript/App.vue
+Hi from app/javascript/components/Counter.vue
+This line is a prop message for the counter component
+Vue version: 2.7.14
+```
+- and there should be an Increment Counter Component button that increase a "count" variable below the button
+- in the console, it should say "Vite ⚡ Rails" and there shold be no javascript errors
 
 ## To Create
 - `rails new <app name>`
@@ -162,5 +172,5 @@ Hi from app/javascript/components/Counter.vue
 This line is a prop message for the counter component
 Vue version: 2.7.14
 ```
-and there should be an Increment Counter Component button that increase a "count" variable below the button
+- and there should be an Increment Counter Component button that increase a "count" variable below the button
 - in the console, it should say "Vite ⚡ Rails" and there shold be no javascript errors
