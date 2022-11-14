@@ -19,7 +19,7 @@ Sources:
 Hi from app/views/pages/home.html.slim
 Hi from app/javascript/App.vue
 Hi from app/javascript/components/Counter.vue
-This line is a prop message for the counter component
+This line is a prop message in the counter component.
 Vue version: 2.7.14
 ```
 - and there should be an Increment Counter Component button that increase a "count" variable below the button
@@ -169,7 +169,7 @@ export default {
 Hi from app/views/pages/home.html.slim
 Hi from app/javascript/App.vue
 Hi from app/javascript/components/Counter.vue
-This line is a prop message for the counter component
+This line is a prop message in the counter component.
 Vue version: 2.7.14
 ```
 - and there should be an Increment Counter Component button that increase a "count" variable below the button
