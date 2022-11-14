@@ -8,7 +8,8 @@ Sources:
 
 ## To Run
 - `bundle install`
-- `npm intall`
+- `npm i vite@2.5.10 @vitejs/plugin-vue@2.3.3`
+- `npm i vite-plugin-vue2 vue@2`
 - terminal tab #1: `bin/vite dev`
 - terminal tab #2: `rails s`
 - in browser, go to `localhost:3000/pages/home`
@@ -78,7 +79,7 @@ new Vue({
 <template>
   <div>
     p Hi from app/javascript/App.vue
-    <Counter propMessage="This is a prop message for the counter component" />
+    <Counter propMessage="This line is a prop message for the counter component" />
   </div>
 </template>
 
@@ -157,7 +158,7 @@ export default {
 Hi from app/views/pages/home.html.erb
 Hi from app/javascript/App.vue
 Hi from app/javascript/components/Counter.vue
-This is a prop message for the counter component
+This line is a prop message for the counter component
 Vue version: 2.7.14
 ```
 and there should be an Increment Counter Component button that increase a "count" variable below the button

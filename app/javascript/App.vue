@@ -1,7 +1,7 @@
 <template>
   <div>
     <p>Hi from app/javascript/App.vue</p>
-    <Counter propMessage="This is a prop message in the counter component." />
+    <Counter propMessage="This line is a prop message in the counter component." />
   </div>
 </template>
 

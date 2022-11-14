@@ -3,7 +3,7 @@
     <p>Hi from app/javascript/components/Counter.vue</p>
     <p>{{ propMessage }}</p>
     <p>Vue version: {{ version }}</p>
-    <button id="counter-button" @click="increment">Increment</button>
+    <button id="counter-button" @click="increment">Increment Counter Component</button>
     <p>Count is: {{ count }}</p>
   </div>
 </template>
