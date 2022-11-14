@@ -10,7 +10,7 @@ Sources:
 - `bundle install`
 - `bundle exec vite install`
 - `npm i vite@2.5.10 @vitejs/plugin-vue@2.3.3`
-- `npm i vite-plugin-vue2 vue@2`
+- `npm i vite-plugin-vue2 vue@2` (this throws warnings, which I believe you can ignore 🤞)
 - terminal tab #1: `bin/vite dev`
 - terminal tab #2: `rails s`
 - in browser, go to `localhost:3000/pages/home`
@@ -21,7 +21,7 @@ Sources:
 - `bundle add vite_rails slim-rails`
 - `bundle exec vite install`
 - `npm i vite@2.5.10 @vitejs/plugin-vue@2.3.3 --save`
-- `npm i vite-plugin-vue2 vue@2 --save` (this throws warnings, which I believe you can ignore 🤞)
+- `npm i vite-plugin-vue2 vue@2 --save`
 - `rails g controller pages home`
 - make `vite.config` look like this:
 ```
