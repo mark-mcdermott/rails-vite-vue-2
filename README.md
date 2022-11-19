@@ -1,4 +1,4 @@
-## Starter Rails 7, Vue 3 and Vite App
+## Starter Rails 7, Vue 2 and Vite App
 Rails views with vue components (running on vite) sprinkled in.
 
 Sources:
